@@ -23,7 +23,7 @@ header{
     top: 0;
     z-index: 1000;
 }
-header{
+header .container {
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -101,9 +101,17 @@ section{
     padding: 20px;
     transition: background 0.3s, color 0.3s;
 }
+.features i{
+    font-size: 2rem;
+    margin-bottom: 10px;
+}
 .features:hover{
     background: #ddd;
     color: #000;
+}
+#product{
+    background: #f4f4f4;
+    text-align: center;
 }
 #product-card{
     display: inline-block;
@@ -132,6 +140,12 @@ section{
     background: #e9ecef;
     text-align: center;
     padding: 40px 0;
+}
+.anddress-map {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
 }
 .address{
     flex: 1;
